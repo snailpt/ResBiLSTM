@@ -10,6 +10,6 @@ Hope this code can be useful. I would appreciate you citing us in your paper. ðŸ
 Zhao W, Wang W-F, Patnaik LM, Zhang B-C, Weng S-J, Xiao S-X, Wei D-Z and Zhou H-F (2024) Residual and bidirectional LSTM for epileptic seizure detection. Front. Comput. Neurosci. 18:1415967. doi: 10.3389/fncom.2024.1415967
 
 ### Communication
-QQ discussion group (Motor imagery and Seizure Detection): 837800443
+QQ discussion group (Motor imagery and Seizure Detection [TUSZ preprocessing]): 837800443
 
 Email: zhaowei701@163.com

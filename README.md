@@ -7,6 +7,10 @@ Electroencephalogram (EEG) plays a pivotal role in the detection and analysis of
 ### Overall Framework:
 ![architecture of ResBiLSTM](https://raw.githubusercontent.com/snailpt/ResBiLSTM/main/architecture.png)
 
+### The TUSZ Dataset
+The TUSZ dataset stands as one of the largest and most well-acknowledged open-source epilepsy EEG datasets available to researchers, offering detailed clinical case descriptions. It includes annotations on the timing and types of epileptic seizures, as well as comprehensive patient information such as sex, age, medications, clinical history, seizure event count, and duration. Our study utilized the May 2020 release of the corpus (V1.5.2), comprising 3050 seizure cases across eight distinct seizure types, recorded at various sampling frequencies and montages. The seizure types include Focal Non-Specific Seizure (FNSZ), Generalized Non-Specific Seizure (GNSZ), Absence Seizure (ABSZ), Complex Partial Seizure (CPSZ), Tonic Clonic Seizure (TCSZ), Tonic Seizure (TNSZ), Simple Partial Seizure (SPSZ), and Myoclonic Seizure (MYSZ), as detailed in Table 1. Due to the limited number of MYSZ events, we excluded this type and focused on the remaining seven seizure categories for analysis. 
+
+
 
 ### Citation
 Hope this code can be useful. I would appreciate you citing us in your paper. 😊

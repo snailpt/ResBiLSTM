@@ -1,5 +1,7 @@
 '''
-Zhao W, Wang W F, Patnaik L M, et al. Residual and bidirectional LSTM for epileptic seizure detection[J]. Frontiers in Computational Neuroscience, 2024, 18: 1415967.
+Zhao W, Wang W F, Patnaik L M, et al. Residual and bidirectional LSTM for epileptic seizure detection[J]. 
+    Frontiers in Computational Neuroscience, 2024, 18: 1415967.
+    
 Author: zhaowei701@163.com
 '''
 

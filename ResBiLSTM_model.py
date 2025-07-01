@@ -45,11 +45,11 @@ class ResnetBasicBlock(nn.Module):
         
         
 class ResBiLSTMNet(nn.Module):
-    def __init__(self, classify_number, number_RnnCell, number_fc1):
+    def __init__(self, classify_number, number_RnnCell, number_fc1): # For the setting of model hyperparameters, please refer to the description in the paper
         super().__init__()
 
         
-        self.block_1 = nn.Sequential(ResnetBasicBlock(1, 64, 2),
+        self.block_1 = nn.Sequential(ResnetBasicBlock(1, 64, 2), # The parameter of in_channels need to be changed according to the actual situation.
                                      nn.Dropout(p=0.2)
                                     )
         
@@ -63,7 +63,7 @@ class ResBiLSTMNet(nn.Module):
 
         self.lstm = nn.LSTM(128, number_RnnCell, batch_first=True, num_layers=1, bidirectional=True)
         self.fc1 = nn.Linear(number_RnnCell*2, number_fc1)
-        self.fc2 = nn.Linear(number_fc1, classify_number)
+        self.fc2 = nn.Linear(number_fc1, classify_number) 
 
     def forward(self, x):
         x = self.block_1(x)
